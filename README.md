@@ -1,6 +1,6 @@
 # npmtest-level
 
-#### test coverage for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmtest-level.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-level.svg)](https://travis-ci.org/npmtest/node-npmtest-level)
+#### basic test coverage for  [level (v1.6.0)](https://github.com/Level/level)  [![npm package](https://img.shields.io/npm/v/npmtest-level.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-level) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-level.svg)](https://travis-ci.org/npmtest/node-npmtest-level)
 
 #### Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-level/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-level/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-level/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-level/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-level/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-level/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-level/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-level/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-level/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-level/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-level/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-level/build/coverage.html/index.html)
 
@@ -138,7 +138,8 @@
     "scripts": {
         "test": "node ./test.js"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
